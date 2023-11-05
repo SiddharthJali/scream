@@ -5,10 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <style>
+        body {
+            font-family: verdana;
+        }
+
+        .center {
+            border: 3px solid black;
+            border-radius: 15px;
+            position: absolute;
+            padding: 20px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Welcome to Scream!</h1>
+    <div class="center">
+        <h1 id="text">Welcome to Scream!</h1>
+        <button id="button">Explore -></button>
+    </div>
+    <audio id="audio" src="Billie Eilish - everything i wanted.mp3"></audio>
+    <script src="script.js"></script>
 </body>
 
 </html>
